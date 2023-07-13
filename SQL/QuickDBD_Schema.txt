@@ -13,7 +13,7 @@ currency varchar
 launch_date date
 end_date date
 category_id varchar
-subcategory_id varchar 
+subcategory_id varchar
 
 "contacts"
 ---
@@ -29,5 +29,5 @@ category_name varchar
 
 "sub-categories"
 ---
-subcategory_id PK varchar FK >- campaign.category_id
+subcategory_id PK varchar FK >- campaign.subcategory_id
 subcategory_name varchar
